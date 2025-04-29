@@ -65,7 +65,7 @@ Uygulama, OpenDataSoft API'sini kullanarak araç verilerini çeker:
 npm run test
 ```
 
-Ekran Görüntüsü - [](carRentalTypeScriptCursor.png)
+![Araç Kiralama Uygulaması Ekran Görüntüsü](./carRentalTypeScriptCursor.png)
 
 ## 🙏 Teşekkürler
 
