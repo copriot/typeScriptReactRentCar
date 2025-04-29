@@ -1,12 +1,15 @@
-import Header from "./components/header";
-import Hero from "./components/hero";
+import { FC } from "react";
+import Home from "./pages/home";
+import { FilterProvider } from "./utils/filterContext";
+import { Routes, Route } from "react-router-dom";
 
-const App = () => {
+const App: FC = () => {
   return (
-    <div className="bg-black-100 min-h-screen text-white">
-      <Header />
-      <Hero />
-    </div>
+    <FilterProvider>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </FilterProvider>
   );
 };
 
